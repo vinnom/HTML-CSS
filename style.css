@@ -1,19 +1,21 @@
+.cabecalho{
+    padding-left: 20px;
+}
+
 #banner{
     width: 100%;
 }
 
-.principal{
+.sobre{
     background-color: #cccccc;
     padding: 30px;
-}
-
-h1{
     text-align: center;
 }
 
-p{
+.subtitulo{
     text-align: center;
 }
+
 
 #missao{
     font-size: 20px;
@@ -26,10 +28,6 @@ em strong{
 .beneficios{
     background-color: #ffffff;
     padding: 20px;
-}
-
-h2{
-    text-align: center;
 }
 
 .beneficios-itens{
