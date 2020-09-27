@@ -1,5 +1,18 @@
 .cabecalho{
     background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+.cabecalho div{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cabecalho-menu{
+    position: absolute;
+    top: 110px;
+    right: 0px;
 }
 
 .cabecalho-menu li{
