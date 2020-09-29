@@ -1,26 +1,26 @@
-.cabecalho{
+header{
     background-color: #bbbbbb;
     padding: 20px 0;
 }
 
-.cabecalho div{
+header div{
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
-.cabecalho-menu{
+header nav{
     position: absolute;
     top: 110px;
     right: 0px;
 }
 
-.cabecalho-menu li{
+header nav li{
     display: inline;
     margin: 0 0 0 15px;
 }
 
-.cabecalho-menu a{
+header nav a{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 22px;
@@ -28,7 +28,7 @@
     text-decoration: none;
 }
 
-.cabecalho-menu a:hover{
+header nav a:hover{
     color: #c78c19;
     text-decoration: underline;
 }
@@ -80,7 +80,7 @@
 
 footer{
     text-align: center;
-    background-image: url("./bg.jpg");
+    background-image: url("../imagens/bg.jpg");
     padding: 40px;
 }
 
