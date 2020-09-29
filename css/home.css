@@ -40,13 +40,15 @@ header nav a:hover{
 
 .sobre{
     background-color: #cccccc;
-    padding: 20px;
+    padding: 40px 20px 60px 20px;
     text-align: center;
+    width: 100%;
+    vertical-align: top;
 }
 
 .sobre h2{
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .sobre p{
@@ -64,15 +66,14 @@ header nav a:hover{
 
 .beneficios{
     background-color: #ffffff;
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
-    padding: 50px 0;
     padding: 20px;
 }
 
 .subtitulo{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-size: 20px;
 }
 
