@@ -28,6 +28,11 @@
     text-decoration: none;
 }
 
+.cabecalho-menu a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 .produtos-lista{
     width: 940px;
     margin: 0 auto;
@@ -45,10 +50,22 @@
     border-radius: 10px;
 }
 
+.produtos-lista li:hover{
+    border-color: #c78c19;
+}
+
+.produtos-lista li:active{
+    border-color: #088c19;
+}
+
 .produtos-lista h2{
     font-size: 25px;
     font-weight: bold;
     padding: 25px 10px;
+}
+
+.produtos-lista li:hover h2{
+    font-size: 28px;
 }
 
 .produtos-descricao{
