@@ -77,3 +77,14 @@
     font-weight: bold;
     margin-top: 10px;
 }
+
+footer{
+    text-align: center;
+    background-image: url("./bg.jpg");
+    padding: 40px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+}
