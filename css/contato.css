@@ -1,0 +1,64 @@
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+header div{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+header nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+header nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+header nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+form label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+form input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    background-image: url("../imagens/bg.jpg");
+    padding: 40px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+}
