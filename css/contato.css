@@ -39,17 +39,22 @@ main{
     padding: 40px 0;
 }
 
-form label{
+.label-input-texto{
     display: block;
     margin-bottom: 10px;
     font-size: 20px;
 }
 
-form input{
+.input-texto, #mensagem{
     display: block;
     margin-bottom: 20px;
     padding: 10px 20px;
     width: 50%;
+}
+
+.radio-checkbox p, .radio-checkbox label, .radio-checkbox select{
+    display: block;
+    margin-bottom: 10px;
 }
 
 footer{

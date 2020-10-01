@@ -28,14 +28,43 @@
 
         <main>
             <form>
-                <label for="nome">Nome</label>
-                <input type="text" id="nome">
+                <label for="nome" class="label-input-texto">Nome</label>
+                <input type="text" id="nome" class="input-texto">
 
-                <label for="email">Email</label>
-                <input type="text" id="email">
+                <label for="email" class="label-input-texto">Email</label>
+                <input type="text" id="email" class="input-texto"">
 
-                <label for="telefone">Telefone</label>
-                <input type="text" id="telefone">
+                <label for="telefone" class="label-input-texto">Telefone</label>
+                <input type="text" id="telefone" class="input-texto"">
+
+                <label for="mensagem" class="label-input-texto">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea>
+
+                <div class="radio-checkbox">
+                    <p>Como prefere nosso contato?</p>
+                    <label for="radio-email">
+                        <input type="radio" name="radio" id="radio-email">
+                        Email
+                    </label>
+                    <label for="radio-telefone">
+                        <input type="radio" name="radio" id="radio-telefone">
+                        Telefone
+                    </label>
+                    <label for="radio-whatsapp">
+                        <input type="radio" name="radio" id="radio-whatsapp">
+                        WhatsApp
+                    </label>
+                    <label for="periodo">Em qual horário gostaria de ser atendido?</label>
+                    <select name="periodo">
+                        <option value="manha">Manhã</option>
+                        <option value="tarde">Tarde</option>
+                        <option value="noite">Noite</option>
+                    </select>
+                    <label for="checkbox-contato">
+                        <input type="checkbox" name="checkbox" id="checkbox-contato">
+                        Gostaria de receber nossas novidades por email?
+                    </label>
+                </div>
 
                 <input type="submit" value="Enviar">
             </form>
