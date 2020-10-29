@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" />
         <title>Contato - Barbearia Alura</title>
 
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/contato.css">
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/contato.css" />
     </head>
 
     <body>
         <header>
             <div>
                 <h1>
-                    <img src="./imagens/logo/logo.png"
-                        alt="logo da Barbearia Alura. Imagem que representa cabelo e barba a serem cortados com o nome Alura entre eles">
+                    <img
+                        src="./imagens/logo/logo.png"
+                        alt="logo da Barbearia Alura. Imagem que representa cabelo e barba a serem cortados com o nome Alura entre eles"
+                    />
                 </h1>
 
                 <nav>
@@ -29,29 +31,29 @@
         <main>
             <form>
                 <label for="nome" class="label-input-texto">Nome</label>
-                <input type="text" id="nome" class="input-texto">
+                <input type="text" id="nome" class="input-texto" required />
 
                 <label for="email" class="label-input-texto">Email</label>
-                <input type="text" id="email" class="input-texto"">
+                <input type="email="email" class="input-texto" required placeholder="exemplo@exemplo.com">
 
                 <label for="telefone" class="label-input-texto">Telefone</label>
-                <input type="text" id="telefone" class="input-texto"">
+                <input type="tel" id="telefone" class="input-texto" required placeholder="(XX) XXXXX-XXXX" />
 
                 <label for="mensagem" class="label-input-texto">Mensagem</label>
-                <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea>
+                <textarea name="mensagem" id="mensagem" cols="50" rows="10" required></textarea>
 
-                <div class="radio-checkbox">
-                    <p>Como prefere nosso contato?</p>
+                <fieldset class="radio-checkbox">
+                    <legend>Como prefere nosso contato?</legend>
                     <label for="radio-email">
-                        <input type="radio" name="radio" id="radio-email">
+                        <input type="radio" name="radio" id="radio-email" checked />
                         Email
                     </label>
                     <label for="radio-telefone">
-                        <input type="radio" name="radio" id="radio-telefone">
+                        <input type="radio" name="radio" id="radio-telefone" />
                         Telefone
                     </label>
                     <label for="radio-whatsapp">
-                        <input type="radio" name="radio" id="radio-whatsapp">
+                        <input type="radio" name="radio" id="radio-whatsapp" />
                         WhatsApp
                     </label>
                     <label for="periodo">Em qual horário gostaria de ser atendido?</label>
@@ -61,18 +63,20 @@
                         <option value="noite">Noite</option>
                     </select>
                     <label for="checkbox-contato">
-                        <input type="checkbox" name="checkbox" id="checkbox-contato">
-                        Gostaria de receber nossas novidades por email?
+                        <input type="checkbox" name="checkbox" id="checkbox-contato" checked />
+                        <legend>Gostaria de receber nossas novidades por email?</legend>
                     </label>
-                </div>
+                </fieldset>
 
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" />
             </form>
         </main>
 
         <footer>
-            <img src="./imagens/logo/logo-branco.png"
-                alt="logo da Barbearia Alura em cor branca. Imagem que representa cabelo e barba a serem cortados com o nome Alura entre eles">
+            <img
+                src="./imagens/logo/logo-branco.png"
+                alt="logo da Barbearia Alura em cor branca. Imagem que representa cabelo e barba a serem cortados com o nome Alura entre eles"
+            />
             <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
         </footer>
     </body>
