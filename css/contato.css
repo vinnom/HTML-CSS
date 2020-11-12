@@ -85,3 +85,19 @@ footer{
     background-color: darkorange;
     transform: scale(1.05);
 }
+
+table{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
