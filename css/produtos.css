@@ -1,90 +1,90 @@
-header{
-    background-color: #bbbbbb;
-    padding: 20px 0;
+header {
+   background-color: #bbbbbb;
+   padding: 20px 0;
 }
 
-header div{
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+header div {
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
 }
 
-header nav{
-    position: absolute;
-    top: 110px;
-    right: 0px;
+header nav {
+   position: absolute;
+   top: 110px;
+   right: 0px;
 }
 
-header nav li{
-    display: inline;
-    margin: 0 0 0 15px;
+header nav li {
+   display: inline;
+   margin: 0 0 0 15px;
 }
 
-header nav a{
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 22px;
-    color: #000000;
-    text-decoration: none;
+header nav a {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 22px;
+   color: #000000;
+   text-decoration: none;
 }
 
-header nav a:hover{
-    color: #c78c19;
-    text-decoration: underline;
+header nav a:hover {
+   color: #c78c19;
+   text-decoration: underline;
 }
 
-.produtos-lista{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
+.produtos-lista {
+   width: 940px;
+   margin: 0 auto;
+   padding: 50px 0;
 }
 
-.produtos-lista li{
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1%;
-    box-sizing: border-box;
-    text-align: center;
-    border: 2px solid #000000;
-    border-radius: 10px;
+.produtos-lista li {
+   display: inline-block;
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1%;
+   box-sizing: border-box;
+   text-align: center;
+   border: 2px solid #000000;
+   border-radius: 10px;
 }
 
-.produtos-lista li:hover{
-    border-color: #c78c19;
+.produtos-lista li:hover {
+   border-color: #c78c19;
 }
 
-.produtos-lista li:active{
-    border-color: #088c19;
+.produtos-lista li:active {
+   border-color: #088c19;
 }
 
-.produtos-lista h2{
-    font-size: 25px;
-    font-weight: bold;
-    padding: 25px 10px;
+.produtos-lista h2 {
+   font-size: 25px;
+   font-weight: bold;
+   padding: 25px 10px;
 }
 
-.produtos-lista li:hover h2{
-    font-size: 28px;
+.produtos-lista li:hover h2 {
+   font-size: 28px;
 }
 
-.produtos-descricao{
-    font-size: 16px;
+.produtos-descricao {
+   font-size: 16px;
 }
 
-.produtos-preco{
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 10px;
+.produtos-preco {
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 10px;
 }
 
-footer{
-    text-align: center;
-    background-image: url("../imagens/bg.jpg");
-    padding: 40px;
+footer {
+   text-align: center;
+   background-image: url("../imagens/bg.jpg");
+   padding: 40px;
 }
 
-.copyright{
-    color: #ffffff;
-    font-size: 13px;
+.copyright {
+   color: #ffffff;
+   font-size: 13px;
 }

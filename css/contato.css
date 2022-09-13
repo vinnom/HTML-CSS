@@ -1,103 +1,107 @@
-header{
-    background-color: #bbbbbb;
-    padding: 20px 0;
+header {
+   background-color: #bbbbbb;
+   padding: 20px 0;
 }
 
-header div{
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+header div {
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
 }
 
-header nav{
-    position: absolute;
-    top: 110px;
-    right: 0px;
+header nav {
+   position: absolute;
+   top: 110px;
+   right: 0px;
 }
 
-header nav li{
-    display: inline;
-    margin: 0 0 0 15px;
+header nav li {
+   display: inline;
+   margin: 0 0 0 15px;
 }
 
-header nav a{
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 22px;
-    color: #000000;
-    text-decoration: none;
+header nav a {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 22px;
+   color: #000000;
+   text-decoration: none;
 }
 
-header nav a:hover{
-    color: #c78c19;
-    text-decoration: underline;
+header nav a:hover {
+   color: #c78c19;
+   text-decoration: underline;
 }
 
-main{
-    width: 940px;
-    margin: 0 auto;
-    padding: 40px 0;
+main {
+   width: 940px;
+   margin: 0 auto;
+   padding: 40px 0;
 }
 
-.label-input-texto{
-    display: block;
-    margin-bottom: 10px;
-    font-size: 20px;
+.label-input-texto {
+   display: block;
+   margin-bottom: 10px;
+   font-size: 20px;
 }
 
-.input-texto, #mensagem{
-    display: block;
-    margin-bottom: 20px;
-    padding: 10px 20px;
-    width: 50%;
+.input-texto,
+#mensagem {
+   display: block;
+   margin-bottom: 20px;
+   padding: 10px 20px;
+   width: 50%;
 }
 
-.radio-checkbox legend, .radio-checkbox label, .radio-checkbox select{
-    display: block;
-    margin-bottom: 10px;
+.radio-checkbox legend,
+.radio-checkbox label,
+.radio-checkbox select {
+   display: block;
+   margin-bottom: 10px;
 }
 
-footer{
-    text-align: center;
-    background-image: url("../imagens/bg.jpg");
-    padding: 40px;
+footer {
+   text-align: center;
+   background-image: url("../imagens/bg.jpg");
+   padding: 40px;
 }
 
-.copyright{
-    color: #ffffff;
-    font-size: 13px;
+.copyright {
+   color: #ffffff;
+   font-size: 13px;
 }
 
-.enviar{
-    width: 40%;
-    padding: 15px 0;
-    background-color: orange;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    transition: 1s all;
-    cursor: pointer;
+.enviar {
+   width: 40%;
+   padding: 15px 0;
+   background-color: orange;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   border: none;
+   border-radius: 5px;
+   transition: 1s all;
+   cursor: pointer;
 }
 
-.enviar:hover{
-    background-color: darkorange;
-    transform: scale(1.05);
+.enviar:hover {
+   background-color: darkorange;
+   transform: scale(1.05);
 }
 
-table{
-    margin-top: 40px;
-    margin-bottom: 20px;
+table {
+   margin-top: 40px;
+   margin-bottom: 20px;
 }
 
-thead{
-    background-color: #555555;
-    color: white;
-    font-weight: bold;
+thead {
+   background-color: #555555;
+   color: white;
+   font-weight: bold;
 }
 
-th, td{
-    border: 1px solid black;
-    padding: 8px 15px;
+th,
+td {
+   border: 1px solid black;
+   padding: 8px 15px;
 }
